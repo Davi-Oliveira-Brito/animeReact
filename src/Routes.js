@@ -9,7 +9,7 @@ export default function Paths() {
       <BrowserRouter>
           <Routes>
           <Route exact path="/" element={<Menu/>}></Route>
-          <Route exact path="/Front" element={<Endpoint/>}></Route>
+          <Route exact path="/Front" element={<Front/>}></Route>
           </Routes>
       </BrowserRouter>
     )
